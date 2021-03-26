@@ -28,4 +28,4 @@ jobs:
         env:
           RABBITMQ_HOST: localhost
           RABBITMQ_PORT: 5672
-          AMQP_URL: amqp://guest:guest@$RABBITMQ_HOST:5672
+          AMQP_URL: amqp://guest:guest@localhost:5672
